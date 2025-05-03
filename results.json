@@ -9,11 +9,27 @@
       "spanish_3_gram_length": 8469
     },
     "test_eval": {
-      "en_on_en": 31.74,
-      "en_on_fr": 67.09,
-      "en_on_tl": 90.65,
-      "en_on_nl": 77.81
+      "en_on_en": 31.68,
+      "en_on_fr": 66.97,
+      "en_on_tl": 90.47,
+      "en_on_nl": 77.66
     },
-    "test_match": "NameError(\"name 'languages' is not defined\")",
-    "test_generate": "NameError(\"name 'generate' is not defined\")"
+    "test_match": {
+      "df_shape": [
+        192,
+        4
+      ],
+      "en_en_3": 31.709854214822368,
+      "en_tl_3": 90.55908263348604,
+      "en_nl_3": 77.73532846304191
+    },
+    "test_generate": {
+      "english_2_gram": "I amopsADaldas:/oucole X",
+      "english_3_gram": "I am",
+      "english_4_gram": "I Loveryonese artSmNJWk",
+      "spanish_2_gram": "Soy DEngal ay_SvejWI ba",
+      "spanish_3_gram": "Soy soncal a recest\u00e1 qu",
+      "french_2_gram": "Je suisorsEBalintre itole r",
+      "french_3_gram": "Je suis !"
+    }
   }
